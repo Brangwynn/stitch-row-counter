@@ -1,1 +1,1 @@
-# people-counter
+# stitch-row-counter
