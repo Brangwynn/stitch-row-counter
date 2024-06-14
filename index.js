@@ -7,6 +7,16 @@ function increment() {
     countEl.textContent = count
 }
 
+function decrement() {
+    count -= 1
+    countEl.textContent = count
+}
+
+function reset() {
+    count = 0
+    countEl.textContent = count
+}
+
 function save() {
     let countStr = count + " - "
     saveEl.textContent += countStr
@@ -15,4 +25,4 @@ function save() {
 }
 
 console.log(count)
-console.log("Let's count people on the train!")
+console.log("Let's count ze rows!")
